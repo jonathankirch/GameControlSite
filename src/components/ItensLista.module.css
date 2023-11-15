@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  border: 1px solid black;
+  width: 1000px;
+  height: 300px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.container a {
+  display: flex;
+}
+
+.container h2 {
+  font-size: 50px;
+  margin-left: 40px;
+}
+
+.container p {
+  margin-left: 50px;
+  font-size: 20px;
+  color: rgb(90, 90, 90);
+}
+
+.divImg{
+  width: 400px;
+  height: 300px;
+  border: 1px solid red;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+}

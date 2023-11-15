@@ -1,0 +1,88 @@
+.container {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  width: 900px;
+  height: 97vh;
+}
+
+.container h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.divImg {
+  border: 1px solid red;
+  width: 400px;
+  margin: auto;
+  height: 400px;
+}
+
+.divImg img {
+  width: 100%;
+}
+
+.divInformacoes{
+  width: 400px;
+  margin: auto;
+}
+
+.divInformacoes h3 {
+  font-size: 30px
+}
+
+.divInformacoes p{
+  color: rgb(61, 61, 61);
+}
+
+.quantidadeProduto {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 90px;
+  height: 30px;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.quantidadeProduto button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.quantidadeProduto p {
+  margin-top: 4px;
+}
+
+.addBtn {
+  background-color: rgba(0, 128, 0, 0.747);
+}
+
+.addBtn:hover {
+  border: 2px solid rgb(0, 44, 0);
+}
+
+.removeBtn {
+  background-color: rgba(255, 0, 0, 0.705);
+}
+
+.removeBtn:hover {
+  border: 2px solid rgb(87, 0, 0);
+}
+
+.btnComprar {
+  display: flex;
+  justify-content: end;
+  padding: 30px 0px;
+}
+
+.btnComprar button {
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-size: 20px;
+}

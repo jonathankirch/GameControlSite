@@ -1,0 +1,9 @@
+.container {
+  background-color: black;
+}
+
+.container footer{
+  width: 30%;
+  color: white;
+  margin: auto;
+}

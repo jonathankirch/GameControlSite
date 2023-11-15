@@ -1,0 +1,42 @@
+body {
+  background-color: pink;
+}
+
+.container main{
+  display: flex;
+  width: 90%;
+  height: 75vh;
+  border: 1px solid black;
+  background-image: url('https://via.placeholder.com/1000?text=img');
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 50px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.container header {
+  display: flex;
+  background-color: palevioletred;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.container button {
+  height: 100px;
+  width: 200px;
+  font-size: 20px;
+}
+
+.tituloBackground h2{
+  font-size: 40px;
+}
+
+.tituloBackground p{
+  font-size: 25px;
+}
+
