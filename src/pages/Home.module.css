@@ -6,7 +6,7 @@
   display: flex;
   width: 90%;
   height: 75vh;
-  background-image: url('https://via.placeholder.com/1000?text=img');
+  background-image: url('../img/background2.jpg');
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 50px;
