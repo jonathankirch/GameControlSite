@@ -3,11 +3,20 @@ import ItensLista from '../components/ItensLista'
 import imgPs4Ctrl from '../img/pg1-ps4ctrl.jpg'
 import imgPs5Ctrl from '../img/pg2-ps5ctrl.jpg'
 
+import { Link } from 'react-router-dom'
+
 import styles from './PageSaibaMais.module.css'
+
+import { IoArrowBackCircleOutline } from "react-icons/io5";
 
 function PageSaibaMais() {
   return (
     <div className={styles.container}>
+      <div className={styles.iconBack}>
+        <Link to='/'>
+        <button><IoArrowBackCircleOutline size='50' /></button>
+        </Link>
+      </div>
       <ItensLista
         linkPage={'/produto1'}
         imgProduto={imgPs4Ctrl}

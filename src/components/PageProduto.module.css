@@ -148,3 +148,9 @@
 .pinkBaby{
   background-color: #f71d8f;
 }
+
+.iconBack {
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 20px;
+}

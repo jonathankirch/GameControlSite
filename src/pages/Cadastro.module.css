@@ -1,0 +1,21 @@
+.container {
+  background-color: pink;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container form{
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  font-size: 30px;
+  
+}
+
+.container form input {
+  width: 90%;
+  height: 30px;
+  font-size: 25px;
+}
