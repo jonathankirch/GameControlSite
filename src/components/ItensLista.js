@@ -9,7 +9,7 @@ function ItensLista( { imgProduto, imgDescricao, nomeProduto, descricaoProduto, 
         <div className={styles.divImg}>
           <img src={imgProduto} alt={imgDescricao} />
         </div>
-        <div>
+        <div className={styles.divNomeDescricao}>
           <h2>{nomeProduto}</h2>
           <p>{descricaoProduto}</p>
         </div>

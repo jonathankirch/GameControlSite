@@ -1,14 +1,13 @@
-body {
-  background-color: pink;
+.body {
+  background-color: #f46cb2;
 }
 
 .container main{
   display: flex;
   width: 90%;
   height: 75vh;
-  border: 1px solid black;
   background-image: url('https://via.placeholder.com/1000?text=img');
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
   padding-bottom: 50px;
   text-align: center;
@@ -18,7 +17,7 @@ body {
 
 .container header {
   display: flex;
-  background-color: palevioletred;
+  background-color: #ffc7e5;
   height: 100px;
   justify-content: center;
   align-items: center;
@@ -26,10 +25,24 @@ body {
   font-size: 30px;
 }
 
+.container h1 {
+  color: #f00080;
+  text-shadow: 0px 0px 3px black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .container button {
   height: 100px;
   width: 200px;
-  font-size: 20px;
+  font-size: 30px;
+  background-color: #ffc7e5;
+  border: none;
+  color: #f00080;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container button:hover {
+  border: 2px solid #f00080;
 }
 
 .tituloBackground h2{

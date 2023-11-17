@@ -1,19 +1,30 @@
+.body {
+  background-color: #ffc7e5;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  padding: 8px;
+}
+
 .container {
+  border-radius: 20px;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   border: 1px solid black;
   width: 900px;
   height: 97vh;
+  background-color: #f46cb2;
 }
 
 .container h1 {
   font-size: 50px;
   text-align: center;
+  color: white;
+  text-shadow: 0px 0px 3px black;
 }
 
 .divImg {
-  border: 1px solid red;
+  border-radius: 5px;
   width: 400px;
   margin: auto;
   height: 400px;
@@ -21,11 +32,14 @@
 
 .divImg img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .divInformacoes{
   width: 400px;
   margin: auto;
+  color: white;
+  text-shadow: 0px 0px 3px black;
 }
 
 .divInformacoes h3 {
@@ -33,7 +47,7 @@
 }
 
 .divInformacoes p{
-  color: rgb(61, 61, 61);
+  color: white;
 }
 
 .quantidadeProduto {
@@ -46,6 +60,7 @@
   padding: 5px;
 }
 
+
 .quantidadeProduto button {
   height: 30px;
   width: 30px;
@@ -55,27 +70,29 @@
 
 .quantidadeProduto p {
   margin-top: 4px;
+  color: black;
+  text-shadow: none;
 }
 
 .addBtn {
-  background-color: rgba(0, 128, 0, 0.747);
+  background-color: #d9d9d9;
 }
 
 .addBtn:hover {
-  border: 2px solid rgb(0, 44, 0);
+  border: 2px solid black;
 }
 
 .removeBtn {
-  background-color: rgba(255, 0, 0, 0.705);
+  background-color: #a1a1a1;
 }
 
 .removeBtn:hover {
-  border: 2px solid rgb(87, 0, 0);
+  border: 2px solid black;
 }
 
 .btnComprar {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding: 30px 0px;
 }
 
@@ -85,4 +102,49 @@
   border-radius: 20px;
   border: 1px solid black;
   font-size: 20px;
+  color: #f00080;
+  text-shadow: 0px 0px 1px black;
+  margin-top: -30PX;
+}
+
+.inputColors {
+  display: flex;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 150px;
+  align-items: center;
+  height: 40px;
+  padding: 5px;
+  margin: 20px 0px;
+}
+
+.inputColors p {
+  margin-right: 5px;
+  color: black;
+  text-shadow: none;
+}
+
+.inputColors input {
+  appearance: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+}
+
+.inputColors input:checked{
+  border: 2px solid black;
+}
+
+.pink {
+  background-color: #fdc9e5;
+}
+
+.baby {
+  background-color: #fc5fb1;
+}
+
+.pinkBaby{
+  background-color: #f71d8f;
 }
