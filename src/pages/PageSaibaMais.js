@@ -14,7 +14,7 @@ function PageSaibaMais() {
     <div className={styles.container}>
       <div className={styles.iconBack}>
         <Link to='/'>
-        <button><IoArrowBackCircleOutline size='50' /></button>
+        <button><IoArrowBackCircleOutline size='50' color='white' /></button>
         </Link>
       </div>
       <ItensLista

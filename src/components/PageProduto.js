@@ -22,7 +22,7 @@ function PageProduto({
       <div className={styles.container}>
         <div className={styles.iconBack}>
         <Link to='/SaibaMais'>
-        <button><IoArrowBackCircleOutline size='50' /></button>
+        <button><IoArrowBackCircleOutline size='50' color='white'/></button>
         </Link>
         </div>
         <h1>{produtoNome}</h1>
@@ -38,8 +38,8 @@ function PageProduto({
           <div className={styles.inputColors}>
             <p>Cor:</p>
             <input className={styles.pink} type="radio" name="color" onClick={tradePink} />
-            <input className={styles.baby} type="radio" name="color" onClick={tradeBaby} />
             <input className={styles.pinkBaby} type="radio" name="color" onClick={tradePinkBaby} />
+            <input className={styles.baby} type="radio" name="color" onClick={tradeBaby} />
           </div>
           <div className={styles.quantidadeProduto}>
             <button className={styles.removeBtn} onClick={clicouMenos}>

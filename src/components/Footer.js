@@ -19,12 +19,12 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="/">
                   <ImWhatsapp />
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="/">
                   <FaFacebook />
                 </a>
               </li>

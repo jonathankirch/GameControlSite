@@ -2,9 +2,9 @@ import { useState } from 'react'
 
 import PageProduto from '../components/PageProduto'
 
-import imgControlPink from '../img/pg2-ps4ctrl.jpg'
-import imgControlBaby from '../img/pg2-ps5ctrl.jpg'
+import imgControlPink from '../img/ctrl-ps4-escuro.jpg'
 import imgControlPinkBaby from '../img/pg1-ps4ctrl.jpg'
+import imgControlBaby from '../img/pg2-ps4ctrl.jpg'
 
 function Produto1() {
 
@@ -12,7 +12,7 @@ function Produto1() {
   const valorProduto = 1100.00
   let valorTotal = 0
 
-  const [produtoImg, setProdutoImg] = useState(imgControlPink)
+  const [produtoImg, setProdutoImg] = useState(imgControlPinkBaby)
 
   function clicouMenos() {
 

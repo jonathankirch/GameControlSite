@@ -137,20 +137,25 @@
   border: 2px solid black;
 }
 
-.pink {
+.baby {
   background-color: #fdc9e5;
 }
 
-.baby {
+.pinkBaby {
   background-color: #fc5fb1;
 }
 
-.pinkBaby{
+.pink{
   background-color: #f71d8f;
 }
 
 .iconBack {
-  position: absolute;
-  padding-top: 20px;
-  padding-left: 20px;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+.iconBack button{
+  background-color: #fdc9e5;
+  border: none;
 }

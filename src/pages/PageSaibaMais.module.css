@@ -9,3 +9,8 @@
   padding-left: 20px;
   padding-top: 20px;
 }
+
+.iconBack button{
+  background-color: #fdc9e5;
+  border: none;
+}

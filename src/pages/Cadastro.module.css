@@ -1,21 +1,51 @@
 .container {
-  background-color: pink;
+  background-color: #fdc9e5;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #f00080;
 }
 
-.container form{
+.container section{
   width: 400px;
   background-color: white;
   padding: 20px;
   font-size: 30px;
-  
+  border: 1px solid #f00080;
+  border-radius: 20px;
 }
 
-.container form input {
-  width: 90%;
+.container section input {
+  width: 95%;
   height: 30px;
   font-size: 25px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.btnCompra{
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  border: 1px solid black;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: #fdc9e5;
+  border: 1px solid #f00080;
+  color: #f00080;
+}
+
+.iconBack {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.iconBack button{
+  background-color: #fdc9e5;
+  border: none;
 }
